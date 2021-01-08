@@ -5,14 +5,14 @@ It basically analyse a log file in [Apache Log File Format](https://httpd.apache
 
 please find the sample log file for analysis [here](https://drive.google.com/file/d/0B8FpJBr7jL6MLS11aUstdTF3MkE/view)
 
-##prerequisite
+## prerequisite ##
 * Setup [Java](https://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/) 
 * Setup [Maven](https://maven.apache.org/install.html)
 * Setup [Kafka](https://kafka.apache.org/quickstart)
 * Setup [Zookeeper](https://zookeeper.apache.org/doc/r3.1.2/zookeeperStarted.html)
 * Create [kafka topic](https://docs.cloudera.com/HDPDocuments/HDP3/HDP-3.1.5/kafka-working-with-topics/content/creating_a_kafka_topic.html) 
 
-##configuration
+## configuration ##
 * ***log_file_path***       : this attribute takes log file absoulte path 
 * ***kafka_brokers***       : this attribute takes kafka broker url example: localhost:9092
 * ***stream_batch_size***   : this attribute helps to set no of lines we want to publish in single kafka message
@@ -30,7 +30,7 @@ please find the sample log file for analysis [here](https://drive.google.com/fil
   "output_file_path": "./results/ddos_detected_ips.txt"
 }
 ```
-##how build and starting app
+## build and start app ##
 * clone this project to your machine
 * run below command in project root directory
   * mvn build
