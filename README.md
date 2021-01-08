@@ -5,7 +5,7 @@ It basically analyse a log file in [Apache Log File Format](https://httpd.apache
 
 please find the sample log file for analysis [here](https://drive.google.com/file/d/0B8FpJBr7jL6MLS11aUstdTF3MkE/view)
 
-![Alt text](/program_flow.png?raw=true "Project OverView")
+![Alt text](https://raw.githubusercontent.com/chandra-prakash-reddy/DDOSDetector/main/program_flow.png "Project OverView")
 
 ## prerequisite ##
 * Setup [Java](https://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/) 
