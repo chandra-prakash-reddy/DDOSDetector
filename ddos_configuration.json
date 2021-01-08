@@ -1,0 +1,9 @@
+{
+  "log_file_path": "C:\\workarea\\java\\DDOSDetector\\apache-access-log.txt",
+  "kafka_brokers": "localhost:9092",
+  "topic_name": "website_logs",
+  "stream_batch_size": "10000",
+  "process_secs": "1",
+  "ddos_detection_hits": "5",
+  "output_file_path": "./results/ddos_detected_ips.txt"
+}
