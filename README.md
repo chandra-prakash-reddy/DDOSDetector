@@ -1,4 +1,4 @@
-# DDOS Detector
+# DDOS Detector    [![Build Status](https://travis-ci.org/chandra-prakash-reddy/DDOSDetector.svg?branch=main)](https://travis-ci.org/chandra-prakash-reddy/DDOSDetector)
 This project helps in detecting ips  which are periodically attacking websites by a botnet to cause [Distributed Denial of Service (DDOS)](https://en.wikipedia.org/wiki/Denial-of-service_attack#Distributed_attack) 
 
 It basically analyse a log file in [Apache Log File Format](https://httpd.apache.org/docs/2.2/logs.html)
