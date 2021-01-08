@@ -19,7 +19,7 @@ please find the sample log file for analysis [here](https://drive.google.com/fil
 * ***kafka_brokers***       : this attribute takes kafka broker url example: localhost:9092
 * ***website_logs***        : this attribute takes kafka topic name as input
 * ***stream_batch_size***   : this attribute helps to set no of lines we want to publish in single kafka message
-* ***process_secs***        : this attribute heps tp set time in seconds for which DDOS hits will be calculated
+* ***process_secs***        : this attribute helps to set time in seconds for which DDOS hits will be calculated
 * ***ddos_detection_hits*** : this attribute helps to set no of hits to be considered for possible DDOS
 * ***output_file_path***    : this attribute helps to set output file path in which DDOS detected ips will be written
 ```json
