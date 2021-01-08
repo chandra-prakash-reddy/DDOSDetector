@@ -15,6 +15,7 @@ please find the sample log file for analysis [here](https://drive.google.com/fil
 ## configuration ##
 * ***log_file_path***       : this attribute takes log file absoulte path 
 * ***kafka_brokers***       : this attribute takes kafka broker url example: localhost:9092
+* ***website_logs***        : this attribute takes kafka topic name as input
 * ***stream_batch_size***   : this attribute helps to set no of lines we want to publish in single kafka message
 * ***process_secs***        : this attribute heps tp set time in seconds for which DDOS hits will be calculated
 * ***ddos_detection_hits*** : this attribute helps to set no of hits to be considered for possible DDOS
@@ -36,8 +37,8 @@ please find the sample log file for analysis [here](https://drive.google.com/fil
   * mvn build
 * ***Reading and Producing Log Messages*** use below command
   * java -jar target/DDOSDetector-v-0.1.jar stream
-* ***Consuming and Detecting Ips from Messages***
-  * java -jar target/DDOSDetector-v-0.1.jar process use below command
+* ***Consuming and Detecting Ips from Messages*** use below command
+  * java -jar target/DDOSDetector-v-0.1.jar process 
 
 
 
